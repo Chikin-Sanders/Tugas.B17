@@ -1,0 +1,129 @@
+/* Untuk Tablet */
+@media all and (max-width: 1000px) {
+  /* pengaturan header */
+  .header-right {
+    font-size: 14px;
+  }
+  .header-right a:hover {
+    font-size: 16px;
+  }
+  /* pengaturan top wrapper */
+  .top-wrapper h1 {
+    font-size: 32px;
+  }
+  .heading h2 {
+    font-size: 20px;
+  }
+  /* pengaturan konten kategori */
+  .categories-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .category {
+    width: 50%;
+    margin-top: 20px;
+    padding-bottom: 15px;
+    }
+  .category img {height: 100px;}
+  /* pengaturan footer */
+  footer {
+    text-align: center;
+    padding-top: 12px;
+    }
+  /* footer kiri */
+  .footer-left {
+    width: 100%;
+  }
+  .footer-left p {
+    line-height: 18px;
+    font-size: 15px;
+  }
+  /* footer kanan */
+  .footer-right {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .footer-right p {
+    font-size: 15px;
+    flex:auto;
+    text-align: center;
+  }
+  /* footer clear */
+  footer .clear {
+    clear: right;
+  }
+}
+
+/* Untuk Smartphone */
+@media all and (max-width: 670px) {
+  /* pengaturan header */
+  .header-right {
+    display:none;
+  }
+  .menu-icon {
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0;
+    padding: 22px 20px;
+  }
+    /* pengaturan top-wrapper */
+  .btn {
+    width: 100%;
+  }
+
+  .btn-facebook {
+    margin-bottom: 10px;
+  }
+
+  .top-wrapper {
+    text-align: left;
+  }
+  .top-wrapper h1 {
+    font-size: 24px;
+    line-height: 36px;
+  }
+  .top-wrapper p {
+    font-size: 14px;
+    line-height: 20px;
+  }
+
+  /* pengaturan isi kategori */
+  .category {
+    width:100%;
+    margin-top: 15px;
+    padding-bottom: 15px;
+    border-bottom: dashed thin blue;
+  }
+  .category img {height: 85px;}
+  /* pengaturan footer */
+  footer {
+    text-align: center;
+    padding-top: 12px;
+  }
+  /* footer kiri */
+  .footer-left {
+    width: 100%;
+  }
+  .footer-left p {
+    line-height: 15px;
+    font-size: 12px;
+  }
+  /* footer kanan */
+  .footer-right {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .footer-right p {
+    font-size: 12px;
+    flex:auto;
+    text-align: center;
+  }
+
+  /* footer clear */
+  footer .clear {
+    clear: right;
+  }
+}
