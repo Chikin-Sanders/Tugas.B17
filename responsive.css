@@ -94,7 +94,7 @@
     width:100%;
     margin-top: 15px;
     padding-bottom: 15px;
-    border-bottom: dashed thin blue;
+    border-bottom: dashed thin #2ecc71;
   }
   .category img {height: 85px;}
   /* pengaturan footer */
